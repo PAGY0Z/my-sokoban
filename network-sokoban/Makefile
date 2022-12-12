@@ -7,11 +7,11 @@
 
 BINARY_NAME	=	my_sokoban_lan
 
-SRC	=	client.c \
-		game_engine.c \
-		host.c \
-		inits.c \
-		peer.c \
+SRC	=	src/client.c \
+		src/game_engine.c \
+		src/host.c \
+		src/inits.c \
+		src/peer.c
 
 CC = gcc
 
